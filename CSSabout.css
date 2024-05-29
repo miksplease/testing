@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 3%;
+    padding-right: 6%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.pic img{
+    margin-top: 120px;
+    margin-left: 200px;
+    border-radius: 15%;
+}
+h2{
+    color: #fff;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.pic p{
+    color: #fff;
+    margin-top: 10px;
+    font-size: large;
+    line-height: 30px;
+}
+.info{
+    float: right;
+    margin-top: 135px;
+    margin-right: 250px;
+}
+.hob{
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 50px 10px;
+    background-image: url(images/hobb.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.socmed{
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 50px 10px;
+    background-image: url(images/soc.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.LD{
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 50px 10px;
+    background-image: url(images/LD.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s; 
+}
+.aboutme{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(images/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 3%;
+    padding-right: 6%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.col{
+    flex-basis: 50%;
+}
+.sec1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 3%;
+    padding-right: 6%;
+    box-sizing: border-box;  
+
+}
+.hob:hover{
+    transform: translateY(-10px)
+}
+.socmed:hover{
+    transform: translateY(-10px)
+}
+.LD:hover{
+    transform: translateY(-10px)
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: #fff;
+    padding-top: 50px;
+    letter-spacing: 2px;
+}
+.bball{
+    margin-top: 50px;
+    margin-left: 90px;
+    border-radius: 15%;
+}
+.ball{
+    color: #fff;
+    margin-left: 190px;
+    margin-top: 20px;
+    font-style: italic;
+
+}
+.ball2{
+    color: #fff;
+    margin-left: 110px;
+    margin-top: 20px;
+    font-size: small;
+
+}
+.music{
+    float: right;
+    margin-right: 37%;
+    margin-top: 13%;
+    border-radius: 15%;
+}
+.msc{
+    color: #fff;
+    margin-left: 49%;
+    margin-top: 20px;
+    font-style: italic;
+
+}
+.msc2{
+    color: #fff;
+    margin-left: 40%;
+    margin-top: 20px;
+    font-size: small;
+    position: relative;
+}
+.sec1 a{
+    width: 100px;
+    color: #000;
+    font-size: 12px;
+    padding: 10px 0;
+    background-color: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    position: absolute; 
+    top: 40px; 
+    left: 140px;
+    text-align: center;
+    text-decoration: none
+    
+}
+.movie{
+    float: right;
+    border-radius: 15%;
+    position: absolute;
+    margin-left: 38%;
+}
+.movie1{
+    position: absolute;
+    top: 198vh;
+    right: 19%;
+    color: #fff;
+    font-style: italic;
+}
+.movie2{
+    position: absolute;
+    top: 204vh;
+    right: 10%;
+    color: #fff;
+    font-size: small;
+}
+.sec2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 3%;
+    padding-right: 6%;
+    box-sizing: border-box;  
+}
+.sec3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/bg5.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 3%;
+    padding-right: 6%;
+    box-sizing: border-box;  
+}
+.likes img{
+    border-radius: 20%;
+    margin-top: 100px;
+    margin-left: 1%;
+}
+.likes p{
+    color: #fff;
+    font-size: small;
+    text-align: justify;
+    float: left;
+    margin-top: 150px;
+    margin-left: 140px;
+}
+.Dislikes img{
+    border-radius: 20%;
+    margin-right: 1%;
+    margin-left: 50%;
+}
+.Dislikes p{
+    color: #fff;
+    font-size: small;
+    float: right;
+    margin-top: 50px;
+    margin-right: 130px;
+}
+.fb img{
+    margin-top: 70px;
+    margin-left: 20%;
+}
+.fb a{
+    text-decoration: none;
+    color: #fff;
+    float: right;
+    margin-top: 100px;
+    margin-right: 52%;
+    font-size: small;
+}
+.insta img{
+    margin-top: 15px;
+    margin-left: 29%;
+}
+.insta a{
+    text-decoration: none;
+    color: #fff;
+    float: right;
+    font-size: small;
+    margin-top: 50px;
+    margin-right: 40%;
+}
+.twit img{
+    margin-top: 15px;
+    margin-left: 38%;
+}
+.twit a{
+    float: right;
+    text-decoration: none;
+    font-size: small;
+    color: #fff;
+    margin-top: 55px;
+    margin-right: 37%;
+}
+.yt img{
+    margin-left: 45%;
+}
+.yt a{
+    float: right;
+    color: #fff;
+    font-size: small;
+    text-decoration: none;
+    margin-top: 70px;
+    margin-right: 22%;
+}
+h6{
+    font-size: small;
+    color: #fff;
+    font-style: italic;
+    margin-top: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
